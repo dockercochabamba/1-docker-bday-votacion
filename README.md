@@ -1,9 +1,13 @@
 # Votación: Aplicación simple en PHP con Docker y docker-compose
 
-## Cómo empezar
-Descarga [Docker para Mac o Windows](https://www.docker.com/). Si tienes una versión de Windows antigua, puedes usar [Docker Toolbox](https://www.docker.com/products/docker-toolbox).
+## Requisitos
 
-Clona la aplicación y corre dentro del directorio:
+* [Docker 1.12](https://docs.docker.com/engine/installation/) o superior
+* [docker-compose](https://github.com/docker/compose) 1.9.0 o superior
+
+## Instrucciones
+
+Clona la aplicación y dentro del directorio ejecuta:
 
 	$ docker-compose up
 

@@ -1,11 +1,9 @@
 version: '2'
 services:
     votos:
-        image: mojixcloudops/votacioncbba
         build: .
         ports:
             - 3000:3000
-        command: php -S 0.0.0.0:3000 -t /app
         volumes:
             - ./:/app
     redis:
